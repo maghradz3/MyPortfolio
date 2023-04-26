@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import htmlCss from "./htmlCss.png";
+import js from "./js.svg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -32,6 +34,8 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  js,
+  htmlCss,
   backend,
   creator,
   mobile,
