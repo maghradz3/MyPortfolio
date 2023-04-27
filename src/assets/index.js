@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
+import logo from "./LMlogo.svg";
 import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";
+import gitgithub from "./gitgithub.svg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -38,6 +39,7 @@ export {
   htmlCss,
   backend,
   creator,
+  gitgithub,
   mobile,
   web,
   github,
