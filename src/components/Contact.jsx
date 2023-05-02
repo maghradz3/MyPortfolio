@@ -20,7 +20,7 @@ const Contact = () => {
     message: "",
   });
 
-  const [isLoading, setLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,9 +28,43 @@ const Contact = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    setIsLoading(true);
 
-    emailjs.send();
+    //atD5qi4Jb3ZkNgybu
+    //template_9b7nd1c
+    //service_uc865xj
+
+    emailjs
+      .send(
+        "service_uc865xj",
+        "template_9b7nd1c",
+        {
+          from_name: form.name,
+          to_name: "Levan",
+          from_email: form.email,
+          to_email: "levanmaghradze97@gmail.com",
+          message: form.message,
+        },
+        "atD5qi4Jb3ZkNgybu"
+      )
+      .then(
+        () => {
+          setIsLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setIsLoading(false);
+          console.error(error);
+
+          alert(" something went wrong. Please try again.");
+        }
+      );
   };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
