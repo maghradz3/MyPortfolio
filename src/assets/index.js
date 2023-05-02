@@ -2,14 +2,20 @@ import logo from "./LMlogo.svg";
 import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";
+import bankApp from "./bankApp.png";
+import mapApp from "./mapApp.png";
+import ShoppingWeb from "./ShoppingWeb.png";
+import foodOrder from "./foodOrder.png";
+import nextjs from "./nextjs.svg";
 import gitgithub from "./gitgithub.svg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./github.svg";
+import github2 from "./github2.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import BankWeb from "./BankWeb.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -35,14 +41,21 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  foodOrder,
   js,
+  mapApp,
+  nextjs,
   htmlCss,
+  bankApp,
+  ShoppingWeb,
   backend,
+  BankWeb,
   creator,
   gitgithub,
   mobile,
   web,
   github,
+  github2,
   menu,
   close,
   css,

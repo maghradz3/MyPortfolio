@@ -1,10 +1,18 @@
 import {
   mobile,
+  foodOrder,
   js,
   htmlCss,
+  github,
+  github2,
+  ShoppingWeb,
   backend,
   creator,
+  bankApp,
+  mapApp,
+  BankWeb,
   gitgithub,
+  nextjs,
   web,
   javascript,
   typescript,
@@ -92,13 +100,13 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Next JS",
+    icon: nextjs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -108,12 +116,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "docker",
+    icon: github,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "figma",
+    icon: figma,
   },
 ];
 
@@ -189,67 +197,108 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food-Order App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "In this application, from the server created in firebase, we bring the names of food with the appropriate price. The user can add the order to the cart. And he can place an order directly from the cart, after filling out a special order form.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: foodOrder,
+    source_code_link: "https://maghradz3.github.io/Food-Order-App/",
   },
   {
-    name: "Job IT",
+    name: "Mapty",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. The application is fully built using object-oriented programming (classes).",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mapApp,
+    source_code_link: "https://maghradz3.github.io/mapApp/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Bank Application",
+    description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
+      2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
+      After entering the said application, you can transfer money to another member of the application, which will be automatically reflected on his balance, and request a loan. and track your transactions. If you enter your data in the red column, the account will be deactivated.`,
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bankApp,
+    source_code_link: "https://maghradz3.github.io/Bank-application/",
+  },
+  {
+    name: "Bankist Website",
+    description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: BankWeb,
+    source_code_link: "https://maghradz3.github.io/Bank-Website/",
+  },
+  {
+    name: "Bankist Website",
+    description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ShoppingWeb,
+    source_code_link: "https://maghradz3.github.io/Final-Project-Js/",
   },
 ];
 
