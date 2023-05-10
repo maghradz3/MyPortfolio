@@ -197,7 +197,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Food-Order App",
+    name: "Food-Order App (Responsive)",
     description:
       "In this application, from the server created in firebase, we bring the names of food with the appropriate price. The user can add the order to the cart. And he can place an order directly from the cart, after filling out a special order form.",
     tags: [
@@ -218,7 +218,7 @@ const projects = [
     source_code_link: "https://maghradz3.github.io/Food-Order-App/",
   },
   {
-    name: "Bankist Website",
+    name: "Bankist Website (Responsive)",
     // description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
     tags: [
       {
@@ -238,7 +238,7 @@ const projects = [
     source_code_link: "https://maghradz3.github.io/Bank-Website/",
   },
   {
-    name: "Mapty",
+    name: "Mapty (Desktop App)",
     description:
       "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. The application is fully built using object-oriented programming (classes).",
     tags: [
@@ -259,7 +259,7 @@ const projects = [
     source_code_link: "https://maghradz3.github.io/mapApp/",
   },
   {
-    name: "Bank Application",
+    name: "Bank Application (Desktop App)",
     description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
       2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
       After entering the said application, you can transfer money to another member of the application, which will be automatically reflected on his balance, and request a loan. and track your transactions. If you enter your data in the red column, the account will be deactivated.`,
@@ -282,7 +282,7 @@ const projects = [
   },
 
   {
-    name: "Products Pages",
+    name: "Products Pages (Responsive)",
     // description: `product pages. in which the logic of pagination and transition to the detail page is written`,
     tags: [
       {
