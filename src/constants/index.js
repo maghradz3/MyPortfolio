@@ -239,8 +239,8 @@ const projects = [
   },
   {
     name: "Mapty (Desktop App)",
-    description:
-      "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. The application is fully built using object-oriented programming (classes).",
+    // description:
+    //   "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. ",
     tags: [
       {
         name: "Javascript",
@@ -260,9 +260,9 @@ const projects = [
   },
   {
     name: "Bank Application (Desktop App)",
-    description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
-      2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
-      After entering the said application, you can transfer money to another member of the application, which will be automatically reflected on his balance, and request a loan. and track your transactions. If you enter your data in the red column, the account will be deactivated.`,
+    // description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
+    //   2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
+    // `,
     tags: [
       {
         name: "Javascript",
