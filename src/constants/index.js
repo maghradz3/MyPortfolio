@@ -218,6 +218,26 @@ const projects = [
     source_code_link: "https://maghradz3.github.io/Food-Order-App/",
   },
   {
+    name: "Bankist Website",
+    // description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: BankWeb,
+    source_code_link: "https://maghradz3.github.io/Bank-Website/",
+  },
+  {
     name: "Mapty",
     description:
       "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. The application is fully built using object-oriented programming (classes).",
@@ -260,29 +280,10 @@ const projects = [
     image: bankApp,
     source_code_link: "https://maghradz3.github.io/Bank-application/",
   },
+
   {
-    name: "Bankist Website",
-    description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
-    tags: [
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: BankWeb,
-    source_code_link: "https://maghradz3.github.io/Bank-Website/",
-  },
-  {
-    name: "Bankist Website",
-    description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
+    name: "Products Pages",
+    // description: `product pages. in which the logic of pagination and transition to the detail page is written`,
     tags: [
       {
         name: "Javascript",
