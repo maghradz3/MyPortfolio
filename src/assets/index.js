@@ -5,6 +5,7 @@ import js from "./js.svg";
 import bankApp from "./bankApp.png";
 import mapApp from "./mapApp.png";
 import ShoppingWeb from "./ShoppingWeb.png";
+import eEcommerce from "./eEcommerce.png";
 import foodOrder from "./foodOrder.png";
 import nextjs from "./nextjs.svg";
 import gitgithub from "./gitgithub.svg";
@@ -42,6 +43,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   foodOrder,
+  eEcommerce,
   js,
   mapApp,
   nextjs,

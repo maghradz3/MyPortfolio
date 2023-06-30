@@ -1,6 +1,7 @@
 import {
   mobile,
   foodOrder,
+  eEcommerce,
   js,
   htmlCss,
   github,
@@ -196,6 +197,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "e-Ecommerce site",
+    description:
+      "An e-commerce site that has a registration and login form. It has two panels, an admin panel to manage the page and a user panel to order products. The site also has sorting, searching and pagination options. Products are divided into categories",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eEcommerce,
+    source_code_link: "https://maghradz3.github.io/Food-Order-App/",
+  },
   {
     name: "Food-Order App (Responsive)",
     description:
