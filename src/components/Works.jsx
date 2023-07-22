@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <a href={source_code_link} target="_blank">
         <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
@@ -58,17 +58,17 @@ const ProjectCard = ({
           </div>
         </Tilt>
       </a>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
         <motion.p
