@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Cube } from "../helper/Cube";
 
 const Hero = () => {
   return (
@@ -23,7 +24,10 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      <Cube />
+
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

@@ -1,4 +1,4 @@
-import logo from "./LMlogo.svg";
+import logo from "./LMlogo.png";
 import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";

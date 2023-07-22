@@ -1,0 +1,23 @@
+.techCont {
+  border-radius: 10px;
+  background-color: rgba(238, 236, 236, 0.411);
+  box-shadow: 0 0 10px 2px rgba(247, 247, 247, 0.507);
+  //   background-color: red;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+
+  //   animation-fill-mode: forwards;
+
+  &:hover {
+    background-color: rgba(112, 112, 112, 0.411);
+  }
+}
+.techImg {
+  //   background-color: rebeccapurple;
+  //   color: red;
+
+  opacity: 1;
+  animation: rotateIn 1s ease-out;
+  //   animation-delay: 1.5s;
+}
