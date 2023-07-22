@@ -198,7 +198,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "e-Ecommerce site",
+    name: "e-Ecommerce site (Responsive)",
     description:
       "An e-commerce site that has a registration and login form. It has two panels, an admin panel to manage the page and a user panel to order products. The site also has sorting, searching and pagination options. Products are divided into categories",
     tags: [
@@ -245,7 +245,7 @@ const projects = [
   },
   {
     name: "Bankist Website (Responsive)",
-    // description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
+    description: `Bankist site with a slider, Reveal Sections, data tabs, and menu fade animations, smooth scrolling. Overall the site has a nice interface and transitions`,
     tags: [
       {
         name: "Javascript",
@@ -265,8 +265,8 @@ const projects = [
   },
   {
     name: "Mapty (Desktop App)",
-    // description:
-    //   "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. ",
+    description:
+      "This app tracks your activities on a map, specifically: running and cycling. After entering the information in the input fields, the application also calculates what your average speed was. The application was created with the help of the Leaflet JavaScript library. ",
     tags: [
       {
         name: "Javascript",
@@ -286,8 +286,8 @@ const projects = [
   },
   {
     name: "Bank Application (Desktop App)",
-    // description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
-    //   2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
+    description: `Authorization is required to use this application. 4 users have been created for the application: 1. User: id: lm, pas: 1997
+      2.User: id:lmj, pas:1998 3.User 3: id: mg, pas: 1960 4.User 4: id: vm, pas:1956.
     // `,
     tags: [
       {
@@ -309,7 +309,7 @@ const projects = [
 
   {
     name: "Products Pages (Responsive)",
-    // description: `product pages. in which the logic of pagination and transition to the detail page is written`,
+    description: `product pages. in which the logic of pagination and transition to the detail page is written`,
     tags: [
       {
         name: "Javascript",

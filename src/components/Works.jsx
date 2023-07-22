@@ -17,15 +17,16 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div>
-      <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <a href={source_code_link} target="_blank">
+        <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+          <div className="relative w-full h-[230px]">
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+            {/* 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -37,26 +38,27 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
+          </div> */}
           </div>
-        </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[18px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[11px]">{description}</p>
-        </div>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[18px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[11px]">{description}</p>
+          </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
-      </Tilt>
-    </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+        </Tilt>
+      </a>
+    </motion.div>
   );
 };
 
