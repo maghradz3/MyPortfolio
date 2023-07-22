@@ -17,7 +17,11 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, transform: "translateY(200px)" }}
+      whileInView={{ opacity: 1, transform: "translateY(0)" }}
+      viewport={{ once: true }}
+    >
       <a href={source_code_link} target="_blank">
         <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
@@ -58,21 +62,27 @@ const ProjectCard = ({
           </div>
         </Tilt>
       </a>
-    </div>
+    </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <div>
+      <motion.div
+        initial={{ opacity: 0, transform: "translateY(200px)" }}
+        whileInView={{ opacity: 1, transform: "translateY(0)" }}
+        viewport={{ once: true }}
+      >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </div>
+      </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          initial={{ opacity: 0, transform: "translateY(200px)" }}
+          whileInView={{ opacity: 1, transform: "translateY(0)" }}
+          viewport={{ once: true }}
           className="mt-3 text-secondary text-[15px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
