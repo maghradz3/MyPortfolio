@@ -1,6 +1,7 @@
 import "./Cube.scss";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCss3,
@@ -13,7 +14,12 @@ import {
 
 export const Cube = () => {
   return (
-    <div className="stage-cube-cont">
+    <motion.div
+      initial={{ opacity: 0, transform: "translateY(-400px)" }}
+      whileInView={{ opacity: 1, transform: "translateY(0)" }}
+      viewport={{ once: true }}
+      className="stage-cube-cont"
+    >
       <div className="cubespinner">
         <div className="face1">
           <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -34,6 +40,6 @@ export const Cube = () => {
           <FontAwesomeIcon icon={faGithub} color="black" />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

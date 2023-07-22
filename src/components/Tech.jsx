@@ -7,7 +7,12 @@ import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-10">
+    <motion.div
+      initial={{ opacity: 0, transform: "translateY(400px)" }}
+      whileInView={{ opacity: 1, transform: "translateY(0)" }}
+      viewport={{ once: true }}
+      className="flex flex-row flex-wrap justify-center gap-10"
+    >
       {technologies.map((technology) => (
         <motion.div
           className="techCont"
@@ -27,7 +32,7 @@ const Tech = () => {
           <img src={technology.icon} />
         </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 

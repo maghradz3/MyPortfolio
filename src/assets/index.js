@@ -2,6 +2,7 @@ import logo from "./LMlogo.png";
 import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";
+import memoryGame from "./MemoryGame.png";
 import bankApp from "./bankApp.png";
 import mapApp from "./mapApp.png";
 import ShoppingWeb from "./ShoppingWeb.png";
@@ -9,6 +10,8 @@ import eEcommerce from "./eEcommerce.png";
 import foodOrder from "./foodOrder.png";
 import nextjs from "./nextjs.svg";
 import gitgithub from "./gitgithub.svg";
+import mui from "./tech/Mui.png";
+import framerMotion from "./tech/Framermotion.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -42,6 +45,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  mui,
+  framerMotion,
+  memoryGame,
   foodOrder,
   eEcommerce,
   js,
