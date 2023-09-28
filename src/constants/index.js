@@ -5,6 +5,7 @@ import {
   memoryGame,
   foodOrder,
   eEcommerce,
+  reviewsPortal,
   js,
   htmlCss,
   github,
@@ -104,6 +105,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -180,12 +185,22 @@ const experiences = [
   },
   {
     title: "Javascript/React animations and styling",
-    company_name: "Meta",
+
     icon: framerMotion,
     iconBg: "#E6DEDD",
     date: "Apr 2023 - May 2023",
     points: [
       "During this period, I learned React and JavaScript animations, including one of the most interesting libraries, Framer motion. I also studied Material UI for styles",
+    ],
+  },
+  {
+    title: "Node.js/express.s/MongoDB",
+
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Sep 2023",
+    points: [
+      "During this period, I learned Nodejs Express.js and MongoDB and worked on one fullstack project.",
     ],
   },
 ];
@@ -219,6 +234,40 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Reviews Portal (Responsive)",
+    description:
+      "Reviews portal, a full stack project with many functionalities. Register/Login With JWT tokens, users can add new reviews under specific categories and rate them. Other users can like or dislike reviews as well as comment below the review. Unauthorized users can only see reviews in read-only format. Authorized users have their own page where they can view their uploaded reviews and delete or edit them. The application has an admin panel that allows the admin to view and control users, their registration date, lock/unlock, delete and assign admin. The app has a search feature that searches for text from the title, content, tags, and the entire app in general. It has a tag autocompletion feature. It also has sorting by rating and number of likes. The application has dark/light themes, and also supports English and Georgian languages. is fully responsive",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: reviewsPortal,
+    source_code_link: "https://master.d27f5crjw8848s.amplifyapp.com/",
+  },
+  {
     name: "e-Ecommerce site (Responsive)",
     description:
       "An e-commerce site that has a registration and login form. It has two panels, an admin panel to manage the page and a user panel to order products. The site also has sorting, searching and pagination options. Products are divided into categories",
@@ -238,6 +287,14 @@ const projects = [
       {
         name: "MUI",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
       },
     ],
     image: eEcommerce,

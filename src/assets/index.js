@@ -2,6 +2,7 @@ import logo from "./LMlogo.png";
 import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";
+import reviewsPortal from "./ReviewsPortal.png";
 import memoryGame from "./MemoryGame.png";
 import bankApp from "./bankApp.png";
 import mapApp from "./mapApp.png";
@@ -49,6 +50,7 @@ export {
   framerMotion,
   memoryGame,
   foodOrder,
+  reviewsPortal,
   eEcommerce,
   js,
   mapApp,
