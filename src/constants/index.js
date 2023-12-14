@@ -96,9 +96,9 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name:'Nextjs 14',
-    icon: nextjs
-  }.
+    name: "Nextjs 14",
+    icon: nextjs,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -240,8 +240,7 @@ const experiences = [
 const projects = [
   {
     name: "MaToursGPT",
-    description:
-      `The OpenAI API, specifically the ChatGPT 3.5 turbo version, is integrated into the project. The project is divided into several parts, first is authentication, for which the clerk library is used. Users can register/login via email, Linkdin or GIthub.
+    description: `The OpenAI API, specifically the ChatGPT 3.5 turbo version, is integrated into the project. The project is divided into several parts, first is authentication, for which the clerk library is used. Users can register/login via email, Linkdin or GIthub.
       Users from the browser can immediately connect to the page with their Google profile, and from mobile devices, they must be verified by email confirmation.
       1. A chatbot is integrated into the site, which is the ChatGPT 3.5 turbo version.
       2. An integrated prompt specifically for tours that takes two parameters, a country and a city, and generates the top 3 places to see in that city.
@@ -266,7 +265,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name:'Prisma',
+        name: "Prisma",
         color: "blue-text-gradient",
       },
       {
@@ -472,4 +471,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
