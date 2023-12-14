@@ -4,15 +4,13 @@ import {
   framerMotion,
   memoryGame,
   foodOrder,
+  nextjs14,
   eEcommerce,
   reviewsPortal,
   js,
   htmlCss,
   github,
-  github2,
   ShoppingWeb,
-  backend,
-  creator,
   bankApp,
   mapApp,
   BankWeb,
@@ -30,15 +28,8 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  gptma,
 } from "../assets";
 
 export const navLinks = [
@@ -104,6 +95,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+  {
+    name:'Nextjs 14',
+    icon: nextjs
+  }.
   {
     name: "Node JS",
     icon: nodejs,
@@ -203,36 +198,85 @@ const experiences = [
       "During this period, I learned Nodejs Express.js and MongoDB and worked on one fullstack project.",
     ],
   },
+  {
+    title: "Nextjs 14",
+
+    icon: nextjs14,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Dec 2023",
+    points: [
+      "During this period, I learned nexjs14 with every new updates, server actions, next auth and etc. covered several courses on Udemy and implemented several good project.",
+    ],
+  },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
+  {
+    name: "MaToursGPT",
+    description:
+      `The OpenAI API, specifically the ChatGPT 3.5 turbo version, is integrated into the project. The project is divided into several parts, first is authentication, for which the clerk library is used. Users can register/login via email, Linkdin or GIthub.
+      Users from the browser can immediately connect to the page with their Google profile, and from mobile devices, they must be verified by email confirmation.
+      1. A chatbot is integrated into the site, which is the ChatGPT 3.5 turbo version.
+      2. An integrated prompt specifically for tours that takes two parameters, a country and a city, and generates the top 3 places to see in that city.
+      3. The cities searched by users are automatically stored in the database, and other users can see the mentioned tours on the tours page.
+      4. User profile page showing user information, logged in devices and number of tokens available for chatbot service.`,
+    tags: [
+      {
+        name: "Nextjs 14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Tanstack Query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name:'Prisma',
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Planetscale Database",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gptma,
+    source_code_link: "https://ma-tours-gpt.vercel.app/",
+  },
   {
     name: "Reviews Portal (Responsive)",
     description:
