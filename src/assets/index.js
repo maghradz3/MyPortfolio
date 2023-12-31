@@ -22,6 +22,7 @@ import github from "./github.svg";
 import github2 from "./github2.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import masocial from "./masocial.png";
 import BankWeb from "./BankWeb.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -57,6 +58,7 @@ export {
   reviewsPortal,
   eEcommerce,
   js,
+  masocial,
   mapApp,
   nextjs,
   htmlCss,

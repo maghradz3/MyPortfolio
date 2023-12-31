@@ -11,6 +11,7 @@ import {
   htmlCss,
   github,
   ShoppingWeb,
+  masocial,
   bankApp,
   mapApp,
   BankWeb,
@@ -238,6 +239,47 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "MaSocial",
+    description: `On this website, users can directly authenticate, create a topics ,posts and comments of their choice through their Google account. 
+    Users can create post on a specific issue of this topic, which concerns their problem, review of a specific issue, or anything else.
+    Other customers can leave their assessment on the mentioned post, or the way to solve the problem, etc. 
+    Only authenticated users can make comment and create posts. 
+   The site also has a search function, with which users can search for a specific page.
+    Users can delete their created post or comments.
+    The main page shows the top posts with the most user activity.
+   Users have comment reply option in comments.
+   The project has light/dark mode themes.`,
+    tags: [
+      {
+        name: "Nextjs 14",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Next Auth",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cockroachDb Database",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: masocial,
+    source_code_link: "https://masocial.vercel.app/",
+  },
   {
     name: "MaToursGPT",
     description: `The OpenAI API, specifically the ChatGPT 3.5 turbo version, is integrated into the project. The project is divided into several parts, first is authentication, for which the clerk library is used. Users can register/login via email, Linkdin or GIthub.
