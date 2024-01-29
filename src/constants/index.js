@@ -350,7 +350,7 @@ const projects = [
       },
     ],
     image: reviewsPortal,
-    source_code_link: "https://master.d27f5crjw8848s.amplifyapp.com/",
+    source_code_link: "https://master.d3w0fsfpbdw4oz.amplifyapp.com/",
   },
   {
     name: "e-Ecommerce site (Responsive)",
