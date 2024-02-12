@@ -4,6 +4,7 @@ import {
   framerMotion,
   memoryGame,
   foodOrder,
+  realtimechat,
   nextjs14,
   eEcommerce,
   reviewsPortal,
@@ -239,6 +240,47 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Realtime Chat Application",
+    description: `realtime chat application, where users need to register, then from the chat management section, they can add existing users and start chatting, they can also create a chat group and add multiple users. Users can see who is online and communicate in real time. They can update their profile from the profile settings. Along with texts in the chat, it is possible to send photos and emojis.`,
+    tags: [
+      {
+        name: "Nextjs 14",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expressjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: realtimechat,
+    source_code_link: "https://realtime-machat.vercel.app/",
+  },
   {
     name: "MaSocial",
     description: `On this website, users can directly authenticate, create a topics ,posts and comments of their choice through their Google account. 
