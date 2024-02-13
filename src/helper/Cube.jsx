@@ -18,7 +18,7 @@ export const Cube = () => {
       initial={{ opacity: 0, transform: "translateY(-400px)" }}
       whileInView={{ opacity: 1, transform: "translateY(0)" }}
       viewport={{ once: true }}
-      className="stage-cube-cont"
+      className="stage-cube-cont w-[350px] lg:w-[400px] left-[13%]  lg:left-[50%]  "
     >
       <div className="cubespinner">
         <div className="face1">

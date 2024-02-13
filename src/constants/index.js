@@ -191,7 +191,7 @@ const experiences = [
     ],
   },
   {
-    title: "Node.js/express.s/MongoDB",
+    title: "Node.js| express.js | MongoDB",
 
     icon: nodejs,
     iconBg: "#E6DEDD",
