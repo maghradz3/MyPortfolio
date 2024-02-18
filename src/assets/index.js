@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import htmlCss from "./htmlCss.png";
 import js from "./js.svg";
 import gptma from "./gptma.png";
+import jobtracker from "./jobtracker.png";
 import reviewsPortal from "./ReviewsPortal.png";
 import memoryGame from "./MemoryGame.png";
 import bankApp from "./bankApp.png";
@@ -51,6 +52,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   gptma,
+  jobtracker,
   mui,
   nextjs14,
   realtimechat,

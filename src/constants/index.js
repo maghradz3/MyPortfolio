@@ -3,6 +3,7 @@ import {
   mui,
   framerMotion,
   memoryGame,
+  jobtracker,
   foodOrder,
   realtimechat,
   nextjs14,
@@ -240,6 +241,47 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Job Tracker App",
+    description: `This website provides a powerful tool for tracking the status of your job applications. Divided into three sections, the first section allows you to add new job applications by providing details such as position, company, and location. In addition, you can select the job status and job mode from a set of specific answers. Once added, you will be redirected to the "Jobs" section where you can view all your submitted applications. Each card in the "Jobs" section displays crucial details such as company name, job title, location, date of submission, and status. The status can be "interview", "pending", or "declined". You can easily update or delete a specific application by clicking and holding the buttons on the card. Additionally, the section provides a search option and pagination for your convenience. The "Statistics" section provides comprehensive data and insights on job applications submitted in the last six months. The section includes a chart by month and an overview of the total number of applications in the interview mode, pending mode, or rejected. To access this feature, you must register using the Clerk library for authentication.`,
+    tags: [
+      {
+        name: "Nextjs 14",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcnUi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma&prismaClient",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AceternetyUi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobtracker,
+    source_code_link: "https://job-tracker-app-wheat.vercel.app/",
+  },
   {
     name: "Realtime Chat Application",
     description: `realtime chat application, where users need to register, then from the chat management section, they can add existing users and start chatting, they can also create a chat group and add multiple users. Users can see who is online and communicate in real time. They can update their profile from the profile settings. Along with texts in the chat, it is possible to send photos and emojis.`,
