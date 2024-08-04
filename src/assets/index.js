@@ -7,6 +7,7 @@ import jobtracker from "./jobtracker.png";
 import reviewsPortal from "./ReviewsPortal.png";
 import memoryGame from "./MemoryGame.png";
 import bankApp from "./bankApp.png";
+import publisherai from "./publisherAI.png";
 import mapApp from "./mapApp.png";
 import ShoppingWeb from "./ShoppingWeb.png";
 import eEcommerce from "./eEcommerce.png";
@@ -36,6 +37,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import dsajs from "./DsaJs.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import realtimechat from "./realtimechat.png";
@@ -51,8 +53,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  publisherai,
   gptma,
   jobtracker,
+  dsajs,
   mui,
   nextjs14,
   realtimechat,

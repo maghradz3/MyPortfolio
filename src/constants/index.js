@@ -5,6 +5,7 @@ import {
   memoryGame,
   jobtracker,
   foodOrder,
+  publisherai,
   realtimechat,
   nextjs14,
   eEcommerce,
@@ -16,6 +17,7 @@ import {
   masocial,
   bankApp,
   mapApp,
+  dsajs,
   BankWeb,
   gitgithub,
   nextjs,
@@ -114,10 +116,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Next JS",
-    icon: nextjs,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -211,6 +210,16 @@ const experiences = [
       "During this period, I learned nexjs14 with every new updates, server actions, next auth and etc. covered several courses on Udemy and implemented several good project.",
     ],
   },
+  {
+    title: "JavaScript Data Structures & Algorithms",
+
+    icon: dsajs,
+    iconBg: "#E6DEDD",
+    date: "Jun 2024 - Jul 2024",
+    points: [
+      "I took a course that included JavaScript Data structures & Algorithms: Big O, different types of data structures, sorting and searching algorithms, more than 100 practical tasks and theoretical material",
+    ],
+  },
 ];
 
 // const testimonials = [
@@ -241,6 +250,47 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Job Tracker App",
+    description: `Publisher AI, an AI-powered content creation platform designed to transform the way we produce written content. Hosted on Publisher AI, this innovative application leverages cutting-edge AI technology to help users generate high-quality articles, blog posts, social media content, and more with remarkable efficiency and ease.
+
+Key Features:
+
+1.AI-Driven Content Generation: Produce well-structured, engaging content tailored to your needs in a fraction of the time. 2.Image and Voice Synthesis: Upload photos or generate images using AI prompts, and convert text prompts into AI-generated voices. 3.User Authentication: Secure login through Google or GitHub via Clerk ensures your data remains safe. 4.Integrated Media Player: Listen to podcasts directly on any page with the built-in media player. 5.Advanced Search: Easily find publications by author, text, or title with the robust search functionality. 6.Profile and Publisher Rankings: Access your profile and view a list of top publishers on the right sidebar.`,
+    tags: [
+      {
+        name: "Nextjs 14",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcnUi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Convex",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: publisherai,
+    source_code_link: "https://publisher-ai.vercel.app/",
+  },
   {
     name: "Job Tracker App",
     description: `This website provides a powerful tool for tracking the status of your job applications. Divided into three sections, the first section allows you to add new job applications by providing details such as position, company, and location. In addition, you can select the job status and job mode from a set of specific answers. Once added, you will be redirected to the "Jobs" section where you can view all your submitted applications. Each card in the "Jobs" section displays crucial details such as company name, job title, location, date of submission, and status. The status can be "interview", "pending", or "declined". You can easily update or delete a specific application by clicking and holding the buttons on the card. Additionally, the section provides a search option and pagination for your convenience. The "Statistics" section provides comprehensive data and insights on job applications submitted in the last six months. The section includes a chart by month and an overview of the total number of applications in the interview mode, pending mode, or rejected. To access this feature, you must register using the Clerk library for authentication.`,
